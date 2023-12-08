@@ -1,0 +1,56 @@
+
+header, footer {
+    background-color: #32a993; /* Color del encabezado de la pagina */
+    padding: 5px; /* Agregar relleno para mejorar la apariencia */
+    color: rgb(8, 7, 7); /* Cambiar el color del texto para que sea legible en el fondo */
+    text-align: center; /* Centrar el texto */
+  }
+#registroForm {
+    display: flex;
+    flex-direction: column;
+    width: 200px; /* Ancho deseado del formulario */
+    margin: 50px; /* Centrar el formulario horizontalmente */
+  }
+  
+  #registroForm label {
+    margin-bottom: 5px; /* Espacio entre las etiquetas y los campos de texto */
+  }
+  
+  #registroForm input[type="text"],
+
+  
+  #registroForm input[type="email"],
+  #registroForm button {
+    padding: 1px; /* Espacio interno en los campos de texto y botón */
+    margin-bottom: 10px; /* Espacio entre los campos de texto y el botón */
+    width: 140%; /* Ancho completo de los campos de texto y el botón */
+    box-sizing: border-box; /* Incluir el padding en el ancho total */
+  }
+
+  img.izquierda {
+    float: left; /* Alinear la imagen a la izquierda */
+    margin-right: 10px; /* Agregar un margen a la derecha para separar el texto de la imagen */
+    max-width: 200px; /* Establecer el ancho máximo de la imagen */
+    height: auto; /* Permitir que la altura se ajuste automáticamente para mantener la proporción */
+    display: block; /* Hacer que la imagen se comporte como un bloque para centrarla */
+    margin-top: 20px; /* Agregar un margen en la parte superior para bajar la imagen */
+    margin-left: auto; /* Alinear la imagen hacia la izquierda */
+    margin-right: auto; /* Alinear la imagen hacia la derecha */
+  }
+  
+
+  h1 {
+    text-align: center; /* Centrar el texto */
+    color: #0f1128; /* Cambiar el color del texto  */
+    font-size: 20px; /* Cambiar el tamaño del texto */
+  }
+
+  button[type="submit"] {
+    background-color: #a680bd; /* Cambiar el color de fondo del botón */
+    color: #060309; /* Cambiar el color del texto */
+    font-size: 16px; /* Cambiar el tamaño del texto */
+  }
+  
+  
+  
+  
